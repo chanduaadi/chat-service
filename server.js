@@ -23,7 +23,7 @@ const startServer = async () => {
     host: 'localhost',
     routes: {
         cors: {
-            origin: ['*'],  // Allow all origins (You can restrict it to specific origins if needed)
+            origin: ['*'],
             headers: ['Access-Control-Allow-Headers', 'Access-Control-Allow-Origin', 'Access-Control-Allow-Methods', 'Content-Type', 'Authorization']
         }
     }
